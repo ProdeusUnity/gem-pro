@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B2B9992F-AEBB-46C9-A921-EEDBC346A6C4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>gem</RootNamespace>
-    <AssemblyName>gem</AssemblyName>
+    <RootNamespace>gem_pro</RootNamespace>
+    <AssemblyName>gem-pro</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

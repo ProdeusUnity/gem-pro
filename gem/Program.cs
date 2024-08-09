@@ -8,7 +8,7 @@ partial class Program
 	static string Question;
 	[CmdArg(Name = "key", Description = "The API Key", ItemName = "key")]
 	static string Key;
-	const string _url_fmt = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={0}";
+	const string _url_fmt = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key={0}";
 	const string _json_prologue = "{\"contents\":[{\"parts\":[{\"text\":\""; const string _json_epilogue = "\"}]}]}";
 	static async Task MainAsync()
 	{
